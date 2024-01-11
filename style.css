@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.logo > h1 {
+  color: orange;
+  margin-left: 20px;
+}
+.navber {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 auto;
+  padding: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  margin-right: 30px;
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: 700;
+  transform: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: orange;
+}
+.src input {
+  border: 0;
+  border: 1px solid orange;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px 18px;
+  background: transparent;
+  font-family: sans-serif;
+  border-right: none;
+  float: left;
+}
+.btn {
+  border: 0;
+  padding: 10px 18px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content > h1 {
+  font-size: 3em;
+  font-family: arial;
+  color: #fff;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.color {
+  color: orange;
+}
+.main-content > p {
+  margin-left: 30px;
+  color: #fff;
+  font-family: arial;
+  letter-spacing: 1.5px;
+}
+.main-content > button {
+  margin-left: 30px;
+  margin-top: 30px;
+  transition: 0.4s ease;
+}
+.main-content > button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.login-form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  padding: 20px;
+  border-radius: 5px;
+}
+.log-area {
+  color: orange;
+  padding: 8px;
+  width: 220px;
+  background-color: #fff;
+  font-size: 22px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  margin: 2px;
+  text-align: center;
+}
+.login-form input {
+  width: 220px;
+  margin: 10px 2px;
+  padding: 8px;
+  background: transparent;
+  border: 2px solid rgb(207, 109, 92);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.btn-form {
+  width: 240px;
+  padding: 8px;
+  margin: 10px 2px;
+  border: none;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4 ease;
+}
+.btn-form:hover {
+  background-color: #fff;
+}
+.form-h {
+  color: #fff;
+  text-align: center;
+  font-family: arial;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.form-h a {
+  color: orange;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.icon ul li {
+  list-style: none;
+  text-align: center;
+}
+.icon ul li a {
+  font-size: 30px;
+}
+@media screen and (max-width: 567px) {
+  .navber,
+  ul,
+  .main-container {
+    flex-direction: column;
+}
+    .login-form {
+        height: 450px;
+    }
+
+  
+  .main{
+    height: 100%;
+  }
+}
+
+@media screen and (min-width:567px) (max-width: 992px){
+
+}
